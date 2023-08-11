@@ -1,10 +1,7 @@
 import type { AppInfo } from '@/types/app'
 
-const appId = process.env.APP_ID;
-const apiKey = process.env.API_KEY;
-
-export const APP_ID: string = appId || '';
-export const API_KEY: string = apiKey || '';
+export const APP_ID = 'ea09119c-f843-4989-bf83-8628be4aba3a'
+export const API_KEY = 'app-XXyOg4tNmz9kbRvqvum0KxpX'
 
 export const API_URL = ''
 export const APP_INFO: AppInfo = {
